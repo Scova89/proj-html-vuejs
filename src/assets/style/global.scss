@@ -1,8 +1,14 @@
-// commons
+// reset
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// vendor
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap');
 
+// tipografia
+body{
+    font-family: 'Raleway', sans-serif;
+}
