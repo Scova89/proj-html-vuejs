@@ -1,3 +1,4 @@
+@import 'partials/variables.scss';
 // reset
 *{
     margin: 0;
@@ -10,5 +11,5 @@
 
 // tipografia
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: $font-primary;
 }
