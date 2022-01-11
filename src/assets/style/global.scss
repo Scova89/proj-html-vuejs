@@ -1,4 +1,5 @@
 @import 'partials/variables.scss';
+
 // reset
 *{
     margin: 0;
@@ -12,4 +13,13 @@
 // tipografia
 body{
     font-family: $font-primary;
+}
+
+
+// mix
+.primary-color{
+    color: $primary-color;
+}
+.secondary-color{
+    color: $secondary-color;
 }
