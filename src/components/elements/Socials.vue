@@ -1,6 +1,6 @@
 <template>
   <ul>
-      <li><a href="#"><i class="fab fa-facebook-square primary-color"></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook-square primary-color bg-primary-color"></i></a></li>
       <li><a href="#"><i class="fab fa-twitter-square primary-color"></i></a></li>
       <li><a href="#"><i class="fab fa-instagram-square primary-color"></i></a></li>
       <li><a href="#"><i class="fab fa-youtube-square primary-color"></i></a></li>
@@ -21,7 +21,6 @@ export default {
     }
     li{
         margin: 5px;
-        padding: 6px;
+        
     }
-    
 </style>

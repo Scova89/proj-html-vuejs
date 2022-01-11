@@ -23,3 +23,11 @@ body{
 .secondary-color{
     color: $secondary-color;
 }
+.bg-primary-color{
+    background-color: $primary-color;
+}
+
+.container{
+    min-width: 1080px;
+    display: flex;
+}

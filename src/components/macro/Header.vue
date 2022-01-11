@@ -26,11 +26,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .container{
+    .header-sup{
         display: flex;
+        justify-content: center;
+        background-color: #f5f5f5;
+        border-top: 3px solid #55a098;
+    }
+    .header-sup .container{
+        justify-content: space-between;
+        align-items: center;
+    }
+    span{
+        font-size: 12px;
+        color: #666666;
     }
     
-    i{
-        font-size: 30pt;
-    }
+    
 </style>
