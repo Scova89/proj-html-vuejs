@@ -13,6 +13,8 @@
           </div>
           <div class="column">
               <h3>our publications</h3>
+              <Cards v-for="(publication, index) in publications" :key="index" :image="publication.img" :nome="publication.nome"/>
+
           </div> 
       </div>
   </div>
@@ -78,6 +80,33 @@ export default {
                 {
                     img: require ("../../assets/images/column2-image6.jpg"),
                     nome: "Capital Markets"
+                },
+            ],
+
+            publications: [
+                {
+                    img: require ("../../assets/images/column3-image1.jpg"),
+                    nome: "Low Oil Prices"
+                },
+                {
+                    img: require ("../../assets/images/column3-image2.jpg"),
+                    nome: "Cost of Divorce"
+                },
+                {
+                    img: require ("../../assets/images/column3-image3.jpg"),
+                    nome: "2015 Tax Laws"
+                },
+                {
+                    img: require ("../../assets/images/column3-image4.jpg"),
+                    nome: "Surveys Matter"
+                },
+                {
+                    img: require ("../../assets/images/column3-image5.jpg"),
+                    nome: "In-House Work"
+                },
+                {
+                    img: require ("../../assets/images/column3-image6.jpg"),
+                    nome: "Obama Care"
                 },
             ]
         }
