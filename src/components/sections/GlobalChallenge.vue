@@ -5,10 +5,11 @@
       <div class="container">
           <div class="column">
               <h3>our people</h3>
-              <Cards v-for="(people, index) in peoples" :key="index" :image="people.src" :nome="people.nome"/>
+              <Cards v-for="(people, index) in peoples" :key="index" :image="people.img" :nome="people.nome"/>
           </div>
           <div class="column">
               <h3>our practice areas</h3>
+              
           </div>
           <div class="column">
               <h3>our publications</h3>
@@ -28,33 +29,27 @@ export default {
         return{
             peoples: [
                 {
-                    src: "../../assets/images/column1-image1.jpg",
-                    alt: "column1-image1.jpg",
+                    img: require ("../../assets/images/column1-image1.jpg"),
                     nome: "Deborah Brown"
                 },
                 {
-                    src: "../../assets/images/column1-image2.jpg",
-                    alt: "column1-image2.jpg",
+                    img: require ("../../assets/images/column1-image2.jpg"),
                     nome: "Allen Lucas"
                 },
                 {
-                    src: "../../assets/images/column1-image3.jpg",
-                    alt: "column1-image3.jpg",
+                    img: require ("../../assets/images/column1-image3.jpg"),
                     nome: "Muriel Potter"
                 },
                 {
-                    src: "../../assets/images/column1-image4.jpg",
-                    alt: "column1-image4.jpg",
+                    img: require ("../../assets/images/column1-image4.jpg"),
                     nome: "Ken Douglas"
                 },
                 {
-                    src: "../../assets/images/column1-image5.jpg",
-                    alt: "column1-image5.jpg",
+                    img: require ("../../assets/images/column1-image5.jpg"),
                     nome: "Loretta Harris"
                 },
                 {
-                    src: "../../assets/images/column1-image6.jpg",
-                    alt: "column1-image6.jpg",
+                    img: require ("../../assets/images/column1-image6.jpg"),
                     nome: "Phil Russell"
                 },
             ]
@@ -82,12 +77,15 @@ export default {
             width: 170px;
             margin: auto;
             margin-top: 30px;
+            margin-bottom: 40px;
         }
         .column{
             width: calc(100% / 3);
+            padding: 0 30px;
         }
         h3{
             text-align: start;
+            margin-bottom: 20px;
         }
     }
 </style>
