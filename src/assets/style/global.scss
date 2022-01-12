@@ -13,7 +13,7 @@
 // tipografia
 body{
     font-family: $font-primary;
-    color: #e2e2e2;
+    background-color: #fafafa;
 }
 
 
@@ -62,7 +62,7 @@ p{
     color: #666666;
     font-size: 14px;
     text-align: center;
-    line-height: 27px;
+    line-height: 30px;
     margin: 20px 0;
    
 }
@@ -71,4 +71,5 @@ p{
 .container{
     min-width: 1080px;
     display: flex;
+    margin: auto;
 }
