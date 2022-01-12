@@ -9,7 +9,7 @@
           </div>
           <div class="column">
               <h3>our practice areas</h3>
-              
+              <Cards v-for="(area, index) in areas" :key="index" :image="area.img" :nome="area.nome"/>
           </div>
           <div class="column">
               <h3>our publications</h3>
@@ -51,6 +51,33 @@ export default {
                 {
                     img: require ("../../assets/images/column1-image6.jpg"),
                     nome: "Phil Russell"
+                },
+            ],
+
+            areas: [
+                {
+                    img: require ("../../assets/images/column2-image1.jpg"),
+                    nome: "Tax Litigation"
+                },
+                {
+                    img: require ("../../assets/images/column2-image2.jpg"),
+                    nome: "Aquisitions"
+                },
+                {
+                    img: require ("../../assets/images/column2-image3.jpg"),
+                    nome: "Financial Advice"
+                },
+                {
+                    img: require ("../../assets/images/column2-image4.jpg"),
+                    nome: "International"
+                },
+                {
+                    img: require ("../../assets/images/column2-image5.jpg"),
+                    nome: "Oil and Gas"
+                },
+                {
+                    img: require ("../../assets/images/column2-image6.jpg"),
+                    nome: "Capital Markets"
                 },
             ]
         }
