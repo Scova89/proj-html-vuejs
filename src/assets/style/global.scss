@@ -13,6 +13,7 @@
 // tipografia
 body{
     font-family: $font-primary;
+    color: #e2e2e2;
 }
 
 
@@ -28,6 +29,17 @@ body{
 .bg-primary-color{
     background-color: $primary-color;
 }
+.bg-secondary-color{
+    background-color: $secondary-color;
+}
+.bg-terziary-color{
+    background-color: $terziary-color;
+}
+
+.bg-terziary-color-bordertop{
+    background-color: $terziary-color;
+    border-top: 3px solid $primary-color;
+}
 
 // fonts
 .primary-font{
@@ -37,6 +49,24 @@ body{
 .secondary-font{
     font-family: $font-secondary;
 }
+
+h3{
+    font-family: $font-primary;
+    color: $secondary-color;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-family: $font-secondary;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    margin: 20px 0;
+   
+}
+
 
 .container{
     min-width: 1080px;

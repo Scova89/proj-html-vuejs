@@ -28,7 +28,7 @@ export default {
       a{
         text-decoration: none;
         color: #838b8e;
-
+        cursor: pointer;
       }
     }
   }

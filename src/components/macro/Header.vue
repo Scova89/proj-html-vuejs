@@ -1,6 +1,6 @@
 <template>
   <header>
-      <div class="header-sup">
+      <div class="header-sup bg-terziary-color-bordertop">
           <div class="container">
               <div id="announce">
                 <span class="secondary-font">Avada & Associates legal team announce deal to open up oil & gas</span>
@@ -83,9 +83,7 @@ export default {
     .header-sup {
         display: flex;
         justify-content: center;
-        background-color: #f5f5f5;
-        border-top: 3px solid #55a098;
-
+        
         .container{
         justify-content: space-between;
         align-items: center;
