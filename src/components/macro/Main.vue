@@ -8,6 +8,9 @@
       <!-- sezione delle skills dell'azienda -->
       <Skills/>
 
+      <!-- domande agli esperti -->
+      <Experts/>
+
       
   </main>
 </template>
@@ -16,14 +19,15 @@
 import Jumbotron from '../sections/Jumbotron.vue';
 import Identita from '../sections/Identita.vue';
 import Skills from '../sections/Skills.vue';
-
+import Experts from '../sections/Experts.vue'
 
 export default {
     name: 'Main',
     components: {
       Jumbotron,
       Identita,
-      Skills
+      Skills,
+      Experts
     }
 }
 </script>
