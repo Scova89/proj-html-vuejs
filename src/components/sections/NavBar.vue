@@ -19,11 +19,17 @@ export default {
 <style lang="scss" scoped>
   ul{
     list-style: none;
-    text-decoration: none;
+    
     display: flex;
     font-size: 14px;
     li{
       padding: 6px 12px;
+
+      a{
+        text-decoration: none;
+        color: #838b8e;
+
+      }
     }
   }
 </style>
