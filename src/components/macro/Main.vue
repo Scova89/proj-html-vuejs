@@ -11,6 +11,8 @@
       <!-- domande agli esperti -->
       <Experts/>
 
+      <!-- sezione delle schede del team, dell'area di lavoro e delle pubblicazioni -->
+      <GlobalChallenge/>
       
   </main>
 </template>
@@ -19,7 +21,8 @@
 import Jumbotron from '../sections/Jumbotron.vue';
 import Identita from '../sections/Identita.vue';
 import Skills from '../sections/Skills.vue';
-import Experts from '../sections/Experts.vue'
+import Experts from '../sections/Experts.vue';
+import GlobalChallenge from '../sections/GlobalChallenge.vue'
 
 export default {
     name: 'Main',
@@ -27,8 +30,10 @@ export default {
       Jumbotron,
       Identita,
       Skills,
-      Experts
-    }
+      Experts,
+      GlobalChallenge
+    },
+    
 }
 </script>
 
