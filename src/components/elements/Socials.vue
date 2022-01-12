@@ -13,11 +13,12 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     ul{
-        font-size: 20pt;
+        font-size: 20px;
         list-style: none;
         display: flex;
+        padding: 6px;
     }
     li{
         margin: 5px;

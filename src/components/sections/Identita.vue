@@ -37,43 +37,45 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .identità-azienda{
-    display: flex;
-    justify-content: center;
-    padding: 110px 30px 90px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 110px 30px 90px;
 
-    .container{
-      justify-content: space-between;
+      .container{
+        justify-content: space-between;
+        max-width: 1080px;
 
-      .box{
-      background-color: white;
-      width: calc(100% / 3 - 2px);
-      padding: 40px 50px 48px;
-      
-        .pulsante{
-          display: flex;
-          justify-content: center;
-
-          button{
-          text-transform: uppercase;
-          color: white;
-          padding: 13px 29px;
-          border-radius: 2px;
-          font-size: 14px;
-          font-weight: bold;
-          cursor: pointer;
-          border: none;
-            
-          }
-
-          button:hover{
-              background-color: #55a098;
-          }
-        }
+        .box{
+        background-color: white;
+        width: calc(100% / 3 - 2px);
+        padding: 40px 50px 48px;
         
-      } 
-    
-    }
+          .pulsante{
+            display: flex;
+            justify-content: center;
+
+            button{
+            text-transform: uppercase;
+            color: white;
+            padding: 13px 29px;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+              
+            }
+
+            button:hover{
+                background-color: #55a098;
+            }
+          }
+          
+        } 
+      
+      }
   }
 </style>

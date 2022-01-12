@@ -19,7 +19,6 @@ export default {
 <style lang="scss" scoped>
   ul{
     list-style: none;
-    
     display: flex;
     font-size: 14px;
     li{

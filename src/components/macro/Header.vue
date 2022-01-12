@@ -13,7 +13,7 @@
       </div>
       <div class="header-inf">
           <div class="container">
-              <img src="../../assets/images/avada-law-logo.png" alt="">
+              <img src="../../assets/images/avada-law-logo.png" alt="avada-law-logo.png">
               <nav>
                   <NavBar v-for="(link, index) in links" :key="index" :link="link"/>
               
@@ -78,7 +78,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     
     .header-sup {
         display: flex;
@@ -93,6 +93,7 @@ export default {
     span{
         font-size: 12px;
         color: #666666;
+        
     }
     .header-inf{
         display: flex;
@@ -101,12 +102,17 @@ export default {
         .container{
             align-items: center;
             justify-content: space-between;
+
+            img{
+                width: 20%;
+            }
+            nav{
+            display: flex;
+            }
         }
+
         
     }
-    nav{
-        display: flex;
-        
-    }
+    
     
 </style>
