@@ -13,6 +13,9 @@
 
       <!-- sezione delle schede del team, dell'area di lavoro e delle pubblicazioni -->
       <GlobalChallenge/>
+
+      <!-- sezione con logo Envato -->
+      <Envato/>
       
   </main>
 </template>
@@ -22,7 +25,8 @@ import Jumbotron from '../sections/Jumbotron.vue';
 import Identita from '../sections/Identita.vue';
 import Skills from '../sections/Skills.vue';
 import Experts from '../sections/Experts.vue';
-import GlobalChallenge from '../sections/GlobalChallenge.vue'
+import GlobalChallenge from '../sections/GlobalChallenge.vue';
+import Envato from '../sections/Envato.vue';
 
 export default {
     name: 'Main',
@@ -31,7 +35,8 @@ export default {
       Identita,
       Skills,
       Experts,
-      GlobalChallenge
+      GlobalChallenge,
+      Envato
     },
     
 }
